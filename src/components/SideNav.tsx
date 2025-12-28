@@ -22,7 +22,7 @@ function navItemStyle(isActive: boolean): React.CSSProperties {
     padding: "12px 12px",
     borderRadius: 12,
     textDecoration: "none",
-    border: "1px solid #e6e6e6",
+    border: "1px solid #646464ff",
     background: isActive ? "#f3f4f6" : "white",
     boxShadow: isActive ? "0 1px 0 rgba(0,0,0,0.04)" : "none",
     color: "inherit",
@@ -31,7 +31,7 @@ function navItemStyle(isActive: boolean): React.CSSProperties {
 
 export default function SideNav() {
   return (
-    <aside style={{ width: 240, minWidth: 240, borderRight: "1px solid #eee", paddingRight: 14 }}>
+    <aside style={{ width: 240, minWidth: 240, borderRight: "1px solid #646464ff", paddingRight: 14 }}>
       <div style={{ marginBottom: 12, fontSize: 12, opacity: 0.7, letterSpacing: 0.4 }}>SECTIONS</div>
 
       <div style={{ display: "grid", gap: 10 }}>
@@ -60,7 +60,7 @@ export default function SideNav() {
         ))}
       </div>
 
-      <div style={{ marginTop: 16, paddingTop: 14, borderTop: "1px solid #eee", fontSize: 12, opacity: 0.75 }}>
+      <div style={{ marginTop: 16, paddingTop: 14, borderTop: "1px solid #646464ff", fontSize: 12, opacity: 0.75 }}>
         Tip: Breadcrumbs jump you “Home” instantly.
       </div>
     </aside>

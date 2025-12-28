@@ -22,7 +22,7 @@ export default function Layout() {
       {/* LEFT NAV */}
       <div
         style={{
-          borderRight: "1px solid #eee",
+          borderRight: "1px solid #646464ff",
           background: "#fff",
           padding: "16px 14px",
         }}
