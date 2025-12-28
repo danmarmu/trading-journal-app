@@ -31,7 +31,7 @@ function navItemStyle(isActive: boolean): React.CSSProperties {
 
 export default function SideNav() {
   return (
-    <aside style={{ width: 260, minWidth: 260, borderRight: "1px solid #eee", paddingRight: 14 }}>
+    <aside style={{ width: 240, minWidth: 240, borderRight: "1px solid #eee", paddingRight: 14 }}>
       <div style={{ marginBottom: 12, fontSize: 12, opacity: 0.7, letterSpacing: 0.4 }}>SECTIONS</div>
 
       <div style={{ display: "grid", gap: 10 }}>
